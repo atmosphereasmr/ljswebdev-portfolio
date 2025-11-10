@@ -1,0 +1,97 @@
+.intro--background {
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  opacity: 1;
+  position: fixed;
+  width: 100vw;
+  z-index: -1;
+}
+
+.intro--black-background {
+  background-color: black;
+  height: 100vh;
+  position: fixed;
+  width: 100vw;
+  z-index: -1;
+}
+
+.intro--ken-burns-animation-1 {
+  animation: intro--ken-burns-animation-1 21s 0s infinite linear;
+}
+
+.intro--ken-burns-animation-2 {
+  animation: intro--ken-burns-animation-2 21s 0s infinite linear;
+}
+
+.intro--ken-burns-animation-3 {
+  animation: intro--ken-burns-animation-3 21s 0s infinite linear;
+}
+
+@keyframes intro--ken-burns-animation-1 {
+  0% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  24% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 0;
+    transform: scale(1.05);
+  }
+  94% {
+    opacity: 0;
+    transform: scale(1.11);
+  }
+  99% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+}
+
+@keyframes intro--ken-burns-animation-2 {
+  0% {
+    opacity: 0;
+  }
+  24% {
+    opacity: 0;
+    transform: scale(1.1);
+  }
+  30% {
+    opacity: 1;
+  }
+  54% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0;
+    transform: scale(1.05);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes intro--ken-burns-animation-3 {
+  0% {
+    opacity: 0;
+  }
+  54% {
+    opacity: 0;
+    transform: scale(1.1);
+  }
+  60% {
+    opacity: 1;
+  }
+  94% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.05);
+  }
+}

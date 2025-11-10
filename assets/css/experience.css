@@ -1,0 +1,102 @@
+.experience--bullet {
+  margin-top: 15px;
+}
+
+.experience--bullet-list {
+  align-items: flex-start;
+  display: flex;
+  flex-flow: column;
+  height: auto;
+  justify-content: center;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.experience--container {
+  background: linear-gradient(rgb(20, 20, 20), #282828);
+  border-top: 1px solid rgb(36, 36, 36);
+  height: auto;
+  width: 100%;
+}
+
+.experience--dates {
+  margin-bottom: 15px;
+}
+
+.experience--technology {
+  width: auto;
+  height: auto;
+  opacity: 0;
+  padding: 3px 9px 3px 9px;
+  border-radius: 3px;
+  margin: 3px 2px 3px 2px;
+}
+
+.experience--technologies-container {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  justify-content: flex-start;
+  margin-top: 15px;
+  width: 100%;
+}
+
+.experience--logo {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid white;
+  border-radius: 50%;
+  height: 75px;
+  margin-bottom: 15px;
+  width: 75px;
+  -moz-box-shadow: 9px 9px 20px -16px white;
+  -webkit-box-shadow: 9px 9px 20px -16px white;
+  box-shadow: 9px 9px 20px -16px white;
+}
+
+.experience--middle-column {
+  margin-bottom: 150px;
+}
+
+.experience--thin-white-bar {
+  background: linear-gradient(to right, transparent, white, transparent);
+  height: 2px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  width: 200px;
+}
+
+.experience--title {
+  text-align: center;
+}
+
+.experience--workplace-container {
+  align-items: center;
+  background: rgb(0, 0, 0, .7);
+  border: 1px solid rgb(36, 36, 36);
+  display: flex;
+  flex-flow: column;
+  height: auto;
+  justify-content: space-between;
+  margin-top: 50px;
+  padding: 50px 15px 50px 15px;
+  width: 100%;
+  -webkit-box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.75);
+}
+
+/* Media queries for responsive design */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .experience--thin-white-bar {
+    width: 300px;
+  }
+
+  .experience--workplace-container {
+    padding: 50px;
+  }
+}

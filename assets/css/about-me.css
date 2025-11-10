@@ -1,0 +1,35 @@
+.about-me--container {
+  text-align: left;
+}
+
+.about-me--desc-container {
+  padding-top: 50px;
+}
+
+.about-me--text-box {
+  align-items: center;
+  background-color: rgb(20, 20, 20, .8);
+  border: 1px solid rgb(36, 36, 36);
+  display: flex;
+  flex-flow: column;
+  height: auto;
+  justify-content: center;
+  margin-bottom: 150px;
+  margin-top: 15px;
+  min-height: 150px;
+  padding: 15px;
+  white-space: pre-line;
+  width: 100%;
+  -webkit-box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.75);
+}
+
+/* Media queries for responsive design */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+  .about-me--text-box {
+    padding: 0 50px 50px 50px;
+  }
+}

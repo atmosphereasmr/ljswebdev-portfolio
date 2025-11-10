@@ -1,0 +1,54 @@
+.contact--middle-column {
+  align-items: center;
+  background-color: rgb(20, 20, 20, .7);
+  border: 1px solid rgb(36, 36, 36);
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  margin: 150px 0 150px 0;
+  padding: 15px;
+  -webkit-box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.75);
+}
+
+.contact--card {
+  align-items: center;
+  color: white;
+  display: flex;
+  flex-flow: column;
+  font-family: 'Play', sans-serif;
+  font-weight: 400;
+  height: auto;
+  justify-content: flex-start;
+}
+
+.contact--container {
+  background-size: cover;
+  border-top: 1px solid rgb(36, 36, 36);
+  height: auto;
+}
+
+.contact--contact-method {
+  color: #0398fc;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.contact--scroll-to-point {
+  bottom: 100px;
+  position: relative;
+}
+
+.contact--subtitle {
+  text-align: center;
+}
+
+/* Media queries for responsive design */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .contact--middle-column {
+    padding: 50px;
+  }
+}

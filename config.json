@@ -1,0 +1,487 @@
+{
+  "backgrounds": {
+    "avatar_image_url": "https://i.ibb.co/TqN8vSxf/30312584.jpg",
+    "applications_background_color": "linear-gradient(black, rgb(20,20,20))",
+    "education_background_image_url": "https://i.ibb.co/FLnBKWMP/tanner-crockett-gk-KPcl-Uy-TGg-unsplash.jpg",
+    "education_institution_avatar_image_url": "https://i.ibb.co/zhsWDrhK/5432151.png",
+    "contact_background_color": "radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(25,0,99,1) 50%, rgba(40,0,158,1) 100%)",
+    "experience_background_color": "linear-gradient(#28009e, #190063)",
+    "intro_background_image_1": "https://i.ibb.co/0qspn4N/cityscape-background.png",
+    "intro_background_image_2": "https://i.ibb.co/c334MkT/purple-background.jpg",
+    "intro_background_image_3": "https://i.ibb.co/VWdwMfz/blue-binary-background.jpg",
+    "about_me_skills_background_color": "rgb(0,0,0)"
+  },
+  "text": {
+    "header_first_name": "Logan",
+    "header_last_name": "Smith",
+    "intro_first_name": "Logan",
+    "intro_last_name": "Smith",
+    "about_me_title": "About Me",
+    "about_me": "I’m an experienced and enthusiastic software engineer with 5 years of professional experience. I thrive working independently or in a highly collaborative start-up environment. What I enjoy most about software engineering is building robust, user-friendly applications that not only wow the user, but are well-organized and adherent to best practices.\n\nOne of my proudest achievements is developing Devhorizons, a website builder designed specifically for software engineers to create their own portfolio websites. \n\nI’m driven by a love for problem-solving and continuous learning, always seeking to stay ahead of the curve in the ever-evolving world of technology. I believe in collaboration and the power of diverse teams to bring innovative ideas to life.\n\nWhen I’m not at my desk, I enjoy hiking, trying out new Indian restaurants and taking care of my two black cats.",
+    "header_position": "Software Engineer",
+    "header_skills_title": "Skills",
+    "header_experience_title": "Experience",
+    "header_applications_title": "Applications",
+    "header_education_title": "Education",
+    "header_contact_title": "Contact",
+    "mobile_menu_skills_title": "Skills",
+    "mobile_menu_experience_title": "Experience",
+    "mobile_menu_applications_title": "Applications",
+    "mobile_menu_education_title": "Education",
+    "mobile_menu_contact_title": "Contact",
+    "banner_skills_title": "Skills",
+    "banner_experience_title": "Experience",
+    "banner_applications_title": "Applications",
+    "banner_education_title": "Education",
+    "banner_contact_title": "Contact",
+    "intro_title_1": "Software Engineer",
+    "intro_title_2": "Web Developer",
+    "intro_title_3": "Cat Dad",
+    "skills_subtitle": "I am proficient in the following web development technologies",
+    "experience_subtitle": "I have developed enterprise-level web applications for the following companies",
+    "applications_subtitle": "I've contributed to the success of the following web applications",
+    "contact_subtitle": "I am available for work! Feel free to reach out to me"
+  },
+  "skills": [
+    {
+      "label": "JavaScript",
+      "value": "JavaScript",
+      "title": "JavaScript",
+      "color": "#F7DF1E",
+      "labelColor": "#000000"
+    },
+    {
+      "label": "TypeScript",
+      "value": "TypeScript",
+      "title": "TypeScript",
+      "color": "#3178C6",
+      "labelColor": "#FFFFFF"
+    },
+    {
+      "label": "HTML",
+      "value": "HTML",
+      "title": "HTML",
+      "color": "#E34F26",
+      "labelColor": "#FFFFFF"
+    },
+    {
+      "label": "CSS",
+      "value": "CSS",
+      "title": "CSS",
+      "color": "#1572B6",
+      "labelColor": "#FFFFFF"
+    },
+    {
+      "label": "C++",
+      "value": "C++",
+      "title": "C++",
+      "color": "#00599C",
+      "labelColor": "#FFFFFF"
+    },
+    {
+      "label": "Ruby",
+      "value": "Ruby",
+      "title": "Ruby",
+      "color": "#CC342D",
+      "labelColor": "#FFFFFF"
+    },
+    {
+      "label": "React",
+      "value": "React",
+      "title": "React",
+      "color": "#61DAFB",
+      "labelColor": "#FFFFFF"
+    },
+    {
+      "label": "Node.js",
+      "value": "Node.js",
+      "title": "Node.js",
+      "color": "#8CC84B",
+      "labelColor": "#FFFFFF"
+    },
+    {
+      "label": "Next.js",
+      "value": "Next.js",
+      "title": "Next.js",
+      "color": "#FFFFFF",
+      "labelColor": "#000000"
+    },
+    {
+      "label": "Ruby On Rails",
+      "value": "Ruby On Rails",
+      "title": "Ruby On Rails",
+      "color": "#CC342D",
+      "labelColor": "#FFFFFF"
+    },
+    {
+      "label": "Git",
+      "value": "Git",
+      "title": "Git",
+      "color": "#F05032",
+      "labelColor": "#FFFFFF"
+    },
+    {
+      "label": "Bootstrap",
+      "value": "Bootstrap",
+      "title": "Bootstrap",
+      "color": "#563D7C",
+      "labelColor": "#FFFFFF"
+    },
+    {
+      "label": "Material UI",
+      "value": "Material UI",
+      "title": "Material UI",
+      "color": "rgb(13,110,251)",
+      "labelColor": "#ffffff"
+    },
+    {
+      "label": "Webpack",
+      "value": "Webpack",
+      "title": "Webpack",
+      "color": "#8DD6F9",
+      "labelColor": "#FFFFFF"
+    },
+    {
+      "label": "Jest",
+      "value": "Jest",
+      "title": "Jest",
+      "color": "#7ed321",
+      "labelColor": "#ffffff"
+    },
+    {
+      "label": "Mocha",
+      "value": "Mocha",
+      "title": "Mocha",
+      "color": "#8b572a",
+      "labelColor": "#ffffff"
+    },
+    {
+      "label": "CanvasJS",
+      "value": "CanvasJS",
+      "title": "CanvasJS",
+      "color": "#f5a623",
+      "labelColor": "#ffffff"
+    },
+    {
+      "label": "ScrollMagic",
+      "value": "ScrollMagic",
+      "title": "ScrollMagic",
+      "color": "rgb(13,110,251)",
+      "labelColor": "#ffffff"
+    },
+    {
+      "label": "CI/CD",
+      "value": "CI/CD",
+      "title": "CI/CD",
+      "color": "#d0021b",
+      "labelColor": "#ffffff"
+    },
+    {
+      "label": "TDD",
+      "value": "TDD",
+      "title": "TDD",
+      "color": "#9013fe",
+      "labelColor": "#ffffff"
+    },
+    {
+      "label": "AWS",
+      "value": "AWS",
+      "title": "AWS",
+      "color": "#FF9900",
+      "labelColor": "#FFFFFF"
+    }
+  ],
+  "experience": [
+    {
+      "workplace_avatar_image_url": "https://i.ibb.co/jZjFcNNZ/download.jpg",
+      "workplace_position_title": "Software Engineer",
+      "workplace_name": "Wellist",
+      "workplace_start_date": "January 2021",
+      "workplace_end_date": "July 2023",
+      "workplace_duties": [
+        "Led the migration of four React and Next.js applications to modern frameworks,\nimproving performance and long-term maintainability",
+        "Contributed to large-scale feature development by designing reusable, testable components across\nmicroservice-driven architectures.",
+        "Developed backend APIs using Ruby on Rails, integrating them with frontend components and\nenhancing cross-functional workflow",
+        "Authored and maintained 1,000+ unit and integration tests, promoting test-driven development and\nreducing bug incidence."
+      ],
+      "technologies_used": [
+        {
+          "label": "React",
+          "value": "React",
+          "title": "React",
+          "color": "#61DAFB",
+          "labelColor": "#FFFFFF"
+        },
+        {
+          "label": "Next.js",
+          "value": "Next.js",
+          "title": "Next.js",
+          "color": "#FFFFFF",
+          "labelColor": "#000000"
+        },
+        {
+          "label": "Ruby On Rails",
+          "value": "Ruby On Rails",
+          "title": "Ruby On Rails",
+          "color": "#CC342D",
+          "labelColor": "#FFFFFF"
+        },
+        {
+          "label": "JavaScript",
+          "value": "JavaScript",
+          "title": "JavaScript",
+          "color": "#F7DF1E",
+          "labelColor": "#000000"
+        },
+        {
+          "label": "Node.js",
+          "value": "Node.js",
+          "title": "Node.js",
+          "color": "#8CC84B",
+          "labelColor": "#FFFFFF"
+        },
+        {
+          "label": "HTML",
+          "value": "HTML",
+          "title": "HTML",
+          "color": "#E34F26",
+          "labelColor": "#FFFFFF"
+        },
+        {
+          "label": "CSS",
+          "value": "CSS",
+          "title": "CSS",
+          "color": "#1572B6",
+          "labelColor": "#FFFFFF"
+        },
+        {
+          "label": "Bootstrap",
+          "value": "Bootstrap",
+          "title": "Bootstrap",
+          "color": "#563D7C",
+          "labelColor": "#FFFFFF"
+        },
+        {
+          "label": "RSpec",
+          "value": "RSpec",
+          "title": "RSpec",
+          "color": "#d0021b",
+          "labelColor": "#ffffff"
+        },
+        {
+          "label": "Capybara",
+          "value": "Capybara",
+          "title": "Capybara",
+          "color": "#bd10e0",
+          "labelColor": "#ffffff"
+        },
+        {
+          "label": "AWS",
+          "value": "AWS",
+          "title": "AWS",
+          "color": "#FF9900",
+          "labelColor": "#FFFFFF"
+        },
+        {
+          "label": "Jest",
+          "value": "Jest",
+          "title": "Jest",
+          "color": "#7ed321",
+          "labelColor": "#ffffff"
+        },
+        {
+          "label": "React-Testing-Library",
+          "value": "React-Testing-Library",
+          "title": "React-Testing-Library",
+          "color": "rgb(13,110,251)",
+          "labelColor": "#ffffff"
+        }
+      ]
+    },
+    {
+      "workplace_avatar_image_url": "https://i.ibb.co/n8rncjR4/RJF5-T7-Rn-400x400.jpg",
+      "workplace_position_title": "Freelance Web Developer",
+      "workplace_name": "CD Baby",
+      "workplace_start_date": "May 2020",
+      "workplace_end_date": "August 2020",
+      "workplace_duties": [
+        "Designed and developed an interactive image editor for a global music distribution campaign, boosting user engagement and driving 1,000+ hashtag shares.",
+        "Led the project independently as the sole contractor, delivering a high-impact marketing tool from\nconcept to completion."
+      ],
+      "technologies_used": [
+        {
+          "label": "JavaScript",
+          "value": "JavaScript",
+          "title": "JavaScript",
+          "color": "#F7DF1E",
+          "labelColor": "#000000"
+        },
+        {
+          "label": "HTML",
+          "value": "HTML",
+          "title": "HTML",
+          "color": "#E34F26",
+          "labelColor": "#FFFFFF"
+        },
+        {
+          "label": "CSS",
+          "value": "CSS",
+          "title": "CSS",
+          "color": "#1572B6",
+          "labelColor": "#FFFFFF"
+        },
+        {
+          "label": "Bootstrap",
+          "value": "Bootstrap",
+          "title": "Bootstrap",
+          "color": "#563D7C",
+          "labelColor": "#FFFFFF"
+        },
+        {
+          "label": "CanvasJS",
+          "value": "CanvasJS",
+          "title": "CanvasJS",
+          "color": "#d0021b",
+          "labelColor": "#ffffff"
+        },
+        {
+          "label": "ScrollMagic",
+          "value": "ScrollMagic",
+          "title": "ScrollMagic",
+          "color": "#9013fe",
+          "labelColor": "#ffffff"
+        }
+      ]
+    },
+    {
+      "workplace_avatar_image_url": "https://i.ibb.co/tw2z0pS7/download.jpg",
+      "workplace_position_title": "Jr. Software Engineer",
+      "workplace_name": "Founder Sport Group",
+      "workplace_start_date": "June 2018",
+      "workplace_end_date": "June 2020",
+      "workplace_duties": [
+        "Developed a full-stack React application that enabled schools to customize sports apparel, with\nreal-time previews and asset integration.\n",
+        "Contributed to architectural decisions and codebase planning in an Agile team environment.\n"
+      ],
+      "technologies_used": [
+        {
+          "label": "React",
+          "value": "React",
+          "title": "React",
+          "color": "#61DAFB",
+          "labelColor": "#FFFFFF"
+        },
+        {
+          "label": "Node.js",
+          "value": "Node.js",
+          "title": "Node.js",
+          "color": "#8CC84B",
+          "labelColor": "#FFFFFF"
+        },
+        {
+          "label": "JavaScript",
+          "value": "JavaScript",
+          "title": "JavaScript",
+          "color": "#F7DF1E",
+          "labelColor": "#000000"
+        },
+        {
+          "label": "HTML",
+          "value": "HTML",
+          "title": "HTML",
+          "color": "#E34F26",
+          "labelColor": "#FFFFFF"
+        },
+        {
+          "label": "CSS",
+          "value": "CSS",
+          "title": "CSS",
+          "color": "#1572B6",
+          "labelColor": "#FFFFFF"
+        },
+        {
+          "label": "Bootstrap",
+          "value": "Bootstrap",
+          "title": "Bootstrap",
+          "color": "#563D7C",
+          "labelColor": "#FFFFFF"
+        },
+        {
+          "label": "Jest",
+          "value": "Jest",
+          "title": "Jest",
+          "color": "#7ed321",
+          "labelColor": "#ffffff"
+        },
+        {
+          "label": "React-Table",
+          "value": "React-Table",
+          "title": "React-Table",
+          "color": "#50e3c2",
+          "labelColor": "#ffffff"
+        }
+      ]
+    }
+  ],
+  "applications": [
+    {
+      "application_avatar": "https://i.ibb.co/jZfg8h9Q/Screenshot-2025-11-10-115356.png",
+      "application_workplace_name": "Personal Project",
+      "application_title": "Devhorizons Portfolio Builder",
+      "application_desc": "A custom website builder for software developers to create sleek portfolio sites showcasing experience, projects, and personal branding",
+      "application_button_1_title": "",
+      "application_button_1_url": "",
+      "application_button_2_title": "Try it out!",
+      "application_button_2_url": "https://devhorizons.vercel.app",
+      "application_background_image_url": ""
+    },
+    {
+      "application_avatar": "https://i.ibb.co/n8rncjR4/RJF5-T7-Rn-400x400.jpg",
+      "application_workplace_name": "CD Baby",
+      "application_title": "#IUseCDBaby Image Creator",
+      "application_desc": "An interactive marketing tool used in a global music campaign, boosting user engagement and driving brand exposure.",
+      "application_button_1_title": "",
+      "application_button_1_url": "",
+      "application_button_2_title": "View Screenshots",
+      "application_button_2_url": "https://ibb.co/album/r4XYXw",
+      "application_background_image_url": ""
+    },
+    {
+      "application_avatar": "https://i.ibb.co/tw2z0pS7/download.jpg",
+      "application_workplace_name": "Founder Sport Group",
+      "application_title": "Custom Jersey Builder",
+      "application_desc": "A full-stack React web application that allows users to fully personalize orders with custom text, colors and school logos.",
+      "application_button_1_title": "",
+      "application_button_1_url": "",
+      "application_button_2_title": "Try it out!",
+      "application_button_2_url": "https://www.foundersport.com/configure/?SKU=212000",
+      "application_background_image_url": ""
+    }
+  ],
+  "education": {
+    "education_institution_name": "Devmountain Coding Bootcamp",
+    "education_institution_avatar_image_url": "",
+    "education_show_button": true,
+    "education_button_title": "View Certification",
+    "education_button_url": "https://www.credly.com/badges/4cd00758-8228-421f-a3cd-7fd524e4fba9",
+    "education_institution_location": "Salt Lake City, UT",
+    "education_institution_desc": "I graduated from DevMountain's Javascript Web Development course in Fall 2017."
+  },
+  "contact": [
+    {
+      "label": "ljswebdev@gmail.com",
+      "url": "ljswebdev@gmail.com",
+      "key": "contact_email"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/logansmith91/",
+      "key": "contact_link_1"
+    },
+    {
+      "label": "Github",
+      "url": "https://github.com/atmosphereasmr",
+      "key": "contact_link_2"
+    }
+  ]
+}

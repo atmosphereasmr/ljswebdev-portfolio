@@ -1,0 +1,18 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"/><link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#000000"/><meta name="description" content="Create a free software engineer portfolio website in minutes. Devhorizons lets you launch a sleek, professional portfolio with zero coding."/><script type="application/ld+json">{
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Devhorizons",
+      "operatingSystem": "Web",
+      "applicationCategory": "DeveloperTool",
+      "description": "Devhorizons is a free software engineer portfolio website builder. Easily create and host a clean, professional developer portfolio with no code.",
+      "url": "https://www.devhorizons.io",
+      "offers": {
+        "@type": "Offer",
+        "price": "0.00",
+        "priceCurrency": "USD"
+      },
+      "creator": {
+        "@type": "Person",
+        "name": "Logan Smith"
+      }
+    }</script><link rel="manifest" href="/manifest.json"/><title>Free Software Engineer Portfolio Website Builder | Devhorizons</title><script defer="defer" src="/static/js/main.38d0372d.js"></script><link href="/static/css/main.4a6ca217.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div></body></html>

@@ -1,0 +1,23 @@
+.intro-background-image-1 {
+    background-image: url('../images/intro_background_image_1.png')
+}
+
+.intro-background-image-2 {
+    background-image: url('../images/intro_background_image_2.png')
+}
+
+.intro-background-image-3 {
+    background-image: url('../images/intro_background_image_3.png')
+}
+
+.education-institution-avatar-image-url {
+    background-image: url('../images/education_institution_avatar_image_url.png')
+  }
+
+  .education-background-image-url {
+    background-image: url('../images/education_background_image_url.png')
+  }
+
+  .avatar-image-url {
+    background-image: url('../images/avatar_image_url.png');
+  }

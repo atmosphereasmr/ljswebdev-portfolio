@@ -1,0 +1,204 @@
+.intro--avatar-container {
+  background-position: center;
+  background-size: cover;
+  border: 5px solid white;
+  border-radius: 50%;
+  height: 200px !important;
+  -moz-box-shadow: 9px 9px 20px -16px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 9px 9px 20px -16px rgba(0, 0, 0, 0.75);
+  box-shadow: 9px 9px 20px -16px rgba(0, 0, 0, 0.75);
+  position: relative;
+  top: 50px;
+  width: 200px !important;
+  z-index: 1;
+}
+
+.intro--divider {
+  animation: intro--divider-horizontal 1s 0.5s forwards;
+  background-color: white;
+  height: 1px;
+  margin: 5px 0px;
+  opacity: 0%;
+  width: 1px;
+  display: none;
+}
+
+.intro--header {
+  font-size: 36px;
+  height: auto;
+  width: auto;
+}
+
+.intro--margin {
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+
+.intro--name-container {
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  min-height: 500px;
+  justify-content: center;
+  width: 100%;
+}
+
+.intro--position-1 {
+  align-items: center;
+  animation: intro--position-left 1s 1s forwards;
+  display: flex;
+  justify-content: center;
+  opacity: 0%;
+  text-align: center;
+}
+
+.intro--position-2 {
+  align-items: center;
+  animation: intro--position-bottom 1s 1.25s forwards;
+  display: flex;
+  justify-content: center;
+  opacity: 0%;
+  text-align: center;
+}
+
+.intro--position-3 {
+  align-items: center;
+  animation: intro--position-right 1s 1.5s forwards;
+  display: flex;
+  justify-content: center;
+  opacity: 0%;
+  text-align: center;
+}
+
+.intro--subheader {
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  height: auto;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* Keyframe animations */
+
+@keyframes intro--divider-horizontal {
+  0% {}
+
+  100% {
+    opacity: 100%;
+    width: 30px;
+  }
+}
+
+@keyframes intro--divider-vertical {
+  0% {}
+
+  100% {
+    opacity: 100%;
+    height: 30px;
+  }
+}
+
+@keyframes intro--position-bottom {
+  0% {
+    opacity: 0%;
+    transform: translateY(25px);
+  }
+
+  100% {
+    opacity: 100%;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes intro--position-left {
+  0% {
+    opacity: 0%;
+    transform: translateX(-25px);
+  }
+
+  100% {
+    opacity: 100%;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes intro--position-right {
+  0% {
+    opacity: 0%;
+    transform: translateX(25px);
+  }
+
+  100% {
+    opacity: 100%;
+    transform: translateX(0px);
+  }
+}
+
+/* Media queries for responsive design */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .intro--avatar-container {
+    height: 300px;
+    width: 300px;
+  }
+
+  .intro--divider {
+    animation: intro--divider-vertical 1s 0.5s forwards;
+    margin: 0px 25px;
+  }
+
+  .intro--header {
+    letter-spacing: 5px;
+    font-size: 48px;
+  }
+
+  .intro--position-1 {
+    animation: intro--position-left 1s 1s forwards;
+    padding-right: 0px;
+  }
+
+  .intro--position-2 {
+    animation: intro--position-right 1s 1.25s forwards;
+  }
+
+  .intro--position-3 {
+    animation: intro--position-left 1s 1.5s forwards;
+    padding-left: 0px;
+  }
+
+  .intro--subheader {
+    justify-content: center;
+    flex-flow: row;
+    height: auto;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .intro--avatar-container {
+    height: 200px;
+    width: 200px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .intro--avatar-container {
+    height: 200px;
+    width: 200px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .intro--avatar-container {
+    height: 300px;
+    width: 300px;
+  }
+}

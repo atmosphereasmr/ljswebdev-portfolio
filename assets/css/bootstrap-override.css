@@ -1,0 +1,25 @@
+a {
+  color: white !important;
+  text-decoration: none !important;
+}
+
+button {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  border: none;
+  color: white !important;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0;
+  padding: 1rem 2rem;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.nopadding {
+  margin: 0 !important;
+  padding: 0 !important;
+}

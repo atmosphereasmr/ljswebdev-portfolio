@@ -1,0 +1,307 @@
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Horizon</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+  <!-- CSS documents-->
+  <link rel="stylesheet" href="assets/css/intro.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="assets/css/images.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="assets/css/timer-squares.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="assets/css/header.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="assets/css/skills.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="assets/css/intro-animations.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="assets/css/about-me.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="assets/css/experience.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="assets/css/applications.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="assets/css/bootstrap-override.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="assets/css/education.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="assets/css/contact.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="assets/css/main.css" type="text/css" media="screen" />
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- GSAP and ScrollMagic Animations -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.js"></script>
+</head>
+
+<body>
+
+  <!-- Header Section -->
+
+  <div class="container-fluid nopadding">
+    <div class="row nopadding">
+      <div id="header" class="row nopadding header--container">
+        <div class="col-10 col-lg-4 header--name">
+          <span id="config_header_first_name"></span>&nbsp;<span id="config_header_last_name"></span>&nbsp;-&nbsp;<span
+            id="config_header_position"></span>
+        </div>
+        <div class="col-2 col-lg-8 header--options-container">
+          <div id="hamburger" onclick="collapseMenu()" class="d-flex d-lg-none header--mobile-menu-hamburger">
+            <div class="header--mobile-menu-hamburger-slice"></div>
+            <div class="header--mobile-menu-hamburger-slice"></div>
+            <div class="header--mobile-menu-hamburger-slice"></div>
+          </div>
+          <div class="d-none d-lg-flex row nopadding header--option-container">
+            <a href="#skills" class="header--option">
+              <span id="config_header_skills_title"></span>
+            </a>
+            <a href="#experience" class="header--option">
+              <span id="config_header_experience_title"></span>
+            </a>
+            <a href="#applications" class="header--option">
+              <span id="config_header_applications_title"></span>
+            </a>
+            <a href="#education" class="header--option">
+              <span id="config_header_education_title"></span>
+            </a>
+            <a href="#contact" class="header--option">
+              <span id="config_header_contact_title"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Menu -->
+
+    <div id="mobile-menu" class="d-flex d-lg-none header--mobile-menu-container">
+      <a href="#skills" class="header--mobile-menu-option">
+        <span id="config_mobile_menu_skills_title"></span>
+      </a>
+      <a href="#experience" class="header--mobile-menu-option">
+        <span id="config_mobile_menu_experience_title"></span>
+      </a>
+      <a href="#applications" class="header--mobile-menu-option">
+        <span id="config_mobile_menu_applications_title"></span>
+      </a>
+      <a href="#education" class="header--mobile-menu-option">
+        <span id="config_mobile_menu_education_title"></span>
+      </a>
+      <a href="#contact" class="header--mobile-menu-option">
+        <span id="config_mobile_menu_contact_title"></span>
+      </a>
+    </div>
+  </div>
+
+  <!-- Intro Background Images -->
+
+  <div class='intro--black-background'>
+  </div>
+  <div class='intro--background intro--ken-burns-animation-1 intro-background-image-1'>
+  </div>
+  <div class='intro--background intro--ken-burns-animation-2 intro-background-image-2'>
+  </div>
+  <div class='intro--background intro--ken-burns-animation-3 intro-background-image-3'>
+  </div>
+
+  <!-- Intro Screen Section -->
+
+  <div class="row nopadding">
+    <div class="intro--margin col-lg-12 nopadding">
+      <div class="intro--name-container">
+        <div class="intro--avatar-container avatar-image-url">
+        </div>
+        <div class="full-width-banner">
+          <h1 class="intro--header">
+            <span id="config_intro_first_name"></span>&nbsp;<span id="config_intro_last_name"></span>
+          </h1>
+          <div class="intro--subheader">
+            <h4 class="intro--position-1">
+              <span id="config_intro_title_1"></span>
+            </h4>
+            <div class="intro--divider" id="divider-1">
+            </div>
+            <h4 class="intro--position-2">
+              <span id="config_intro_title_2"></span>
+            </h4>
+            <div class="intro--divider" id="divider-2">
+            </div>
+            <h4 class="intro--position-3">
+              <span id="config_intro_title_3"></span>
+            </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Timer Squares -->
+
+  <div class="timer-squares--container">
+    <div class='timer-squares--spinner-1'></div>
+    <div class='timer-squares--spinner-2'></div>
+    <div class='timer-squares--spinner-3'></div>
+  </div>
+
+  <div id="config_about_me_skills_background_color">
+
+    <!-- About Me Section -->
+
+    <div class='row about-me--container nopadding'>
+      <div class="col-sm-0 col-md-1 col-lg-2 col-xl-3">
+      </div>
+      <div class="col-sm-12 col-md-10 col-lg-8 col-xl-6">
+        <div class="about-me--text-box">
+          <h1>
+            <span id="config_about_me_title"></span>
+          </h1>
+          <div id="about-me-white-bar" class="thick-white-bar"></div>
+          <div class="about-me--desc-container">
+            <span id="config_about_me"></span>
+          </div>
+        </div>
+      </div>
+      <div class='col-sm-0 col-md-1 col-lg-2 col-xl-3'>
+      </div>
+    </div>
+
+    <!-- Skills Section -->
+
+    <div id="skills" class="skills--scroll-to-point"></div>
+    <div class="row skills--container nopadding">
+      <div class="col-sm-0 col-md-1 col-lg-2 col-xl-3">
+      </div>
+      <div class="col-sm-12 col-md-10 col-lg-8 col-xl-6 skills--middle-column">
+        <div class="full-width-banner">
+          <h1>
+            <span id="config_banner_skills_title"></span>
+          </h1>
+          <div id="skills-white-bar" class="thick-white-bar">
+          </div>
+          <h4 class="vertical-slide-animation" id="skills-subtitle-slide-up">
+            <span id="config_skills_subtitle"></span>
+          </h4>
+        </div>
+        <div class="skills--block-container" id="skill-blocks">
+        </div>
+      </div>
+      <div class="col-sm-0 col-md-1 col-lg-2 col-xl-3">
+      </div>
+      <div class="margin-spacer">
+      </div>
+    </div>
+  </div>
+
+  <!-- Experience Section -->
+
+  <div class="row experience--container nopadding" id="config_experience_background_color">
+    <div class="col-sm-0 col-md-1 col-lg-2 col-xl-3">
+    </div>
+    <div class="col-sm-12 col-md-10 col-lg-8 col-xl-6 experience--middle-column">
+      <div id="experience" class="experience--scroll-to-point"></div>
+      <div class="full-width-banner">
+        <h1>
+          <span id="config_banner_experience_title"></span>
+        </h1>
+        <div id="experience-white-bar" class="thick-white-bar">
+        </div>
+        <h4 class="vertical-slide-animation" id="experience-subtitle-slide-up">
+          <span id="config_experience_subtitle"></span>
+        </h4>
+      </div>
+      <div id="experience-blocks"></div>
+    </div>
+    <div class="col-sm-0 col-md-1 col-lg-2 col-xl-3">
+    </div>
+    <div class="margin-spacer">
+    </div>
+  </div>
+
+  <!-- Applications Section -->
+
+  <div class="row applications--container nopadding" id="config_applications_background_color">
+    <div class="col-sm-0 col-md-1 col-lg-2 col-xl-3">
+    </div>
+    <div class="col-sm-12 col-md-10 col-lg-8 col-xl-6 applications--middle-column">
+      <div id="applications" class="applications--scroll-to-point"></div>
+      <div class="full-width-banner">
+        <h1>
+          <span id="config_banner_applications_title"></span>
+        </h1>
+        <div id="applications-white-bar" class="thick-white-bar">
+        </div>
+        <h4 class="vertical-slide-animation" id="applications-subtitle-slide-up">
+          <span id="config_applications_subtitle"></span>
+        </h4>
+      </div>
+      <div class="applications--blocks-container" id="applications-blocks"></div>
+    </div>
+    <div class="col-sm-0 col-md-1 col-lg-2 col-xl-3">
+    </div>
+    <div class="margin-spacer">
+    </div>
+  </div>
+
+  <!-- Education section -->
+
+  <div class="education--container education-background-image-url row nopadding">
+    <div class="col-sm-0 col-md-1 col-lg-2 col-xl-3">
+    </div>
+    <div class="col-sm-12 col-md-10 col-lg-8 col-xl-6 education--middle-column">
+      <div id="education" class="education--scroll-to-point"></div>
+      <div class="full-width-banner">
+        <h1>
+          <span id="config_banner_education_title"></span>
+        </h1>
+        <div id="education-white-bar" class="thick-white-bar">
+        </div>
+      </div>
+      <div class="education--school-logo education-institution-avatar-image-url">
+      </div>
+      <h2>
+        <span id="config_education_institution_name"></span>
+      </h2>
+      <div class="thin-white-bar"></div>
+      <div>
+        <span id="config_education_institution_location"></span>
+      </div>
+      <div class="vertical-slide-animation" id="education-subtitle-slide-up">
+        <span id="config_education_institution_desc"></span>
+      </div>
+      <a id="config_education_button" href="" target="__blank" class="education--button">
+        <span id="config_education_button_title"></span>
+      </a>
+    </div>
+    <div class="col-sm-0 col-md-1 col-lg-2 col-xl-3">
+    </div>
+  </div>
+
+  <!-- Contact section -->
+
+  <div class="row nopadding contact--container" id="config_contact_background_color">
+    <div class="col-sm-0 col-md-1 col-lg-2 col-xl-3">
+    </div>
+    <div class="col-sm-12 col-md-10 col-lg-8 col-xl-6">
+      <div class="contact--middle-column">
+        <div id="contact" class="contact--scroll-to-point"></div>
+        <h1>
+          <span id="config_banner_contact_title"></span>
+        </h1>
+        <div id="contact-white-bar" class="thick-white-bar">
+        </div>
+        <h4 class="vertical-slide-animation contact--subtitle" id="contact-subtitle-slide-up">
+          <span id="config_contact_subtitle"></span>
+        </h4>
+        <div class="contact--card" id="contact-links">
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-0 col-md-1 col-lg-2 col-xl-3">
+    </div>
+  </div>
+
+  <!-- Javascript for animations and mapping applications and experience elements -->
+
+  <script src="./js/animations.js"></script>
+  <script src="./js/loadConfig.js"></script>
+  <script src="./js/header.js"></script>
+
+</body>
+
+</html>

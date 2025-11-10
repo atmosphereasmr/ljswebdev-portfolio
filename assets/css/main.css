@@ -1,0 +1,89 @@
+body {
+  color: white !important;
+  font-family: 'Play', sans-serif !important;
+}
+
+.full-width-banner {
+  align-items: center;
+  background: linear-gradient(to left, transparent, rgb(20, 20, 20, .7), transparent);
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  margin-bottom: 75px;
+  margin-top: 75px;
+  min-height: 150px;
+  padding: 15px 0 15px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.horizontal-slide-left-animation {
+  opacity: 0;
+  transform: translateX(-25px);
+}
+
+.horizontal-slide-right-animation {
+  opacity: 0;
+  transform: translateX(25px);
+}
+
+.h1 {
+  font-family: 'Play', sans-serif !important;
+  font-size: 48px !important;
+  font-weight: 400 !important;
+  margin-bottom: 15px !important;
+  text-align: center;
+}
+
+.h2 {
+  font-family: 'Play', sans-serif !important;
+  font-size: 36px !important;
+  font-weight: 400 !important;
+  margin-bottom: 15px !important;
+  text-align: center;
+}
+
+.h3 {
+  font-family: 'Play', sans-serif !important;
+  font-size: 24px !important;
+  font-weight: 400 !important;
+  margin-bottom: 15px !important;
+  text-align: center;
+}
+
+.h4 {
+  font-family: 'Play', sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  margin-bottom: 15px !important;
+  text-align: left !important;
+}
+
+.thick-white-bar {
+  background: linear-gradient(to right, transparent, white);
+  height: 4px;
+  margin: 0px auto 5px auto;
+  opacity: 0;
+  width: 0px;
+}
+
+.thin-white-bar {
+  background: linear-gradient(to right, transparent, white, transparent);
+  height: 2px;
+  margin-bottom: 5px;
+  width: 200px;
+}
+
+.vertical-slide-animation {
+  opacity: 0;
+  transform: translateY(25px);
+}
+
+/* Media queries for responsive design */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .thin-white-bar {
+    width: 300px;
+  }
+}
